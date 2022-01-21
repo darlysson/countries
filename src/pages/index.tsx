@@ -30,7 +30,6 @@ const Home: NextPage = () => {
         px={{ base: "4", md: "12" }}
         py={{ base: "6", md: "10" }}
       >
-        <h2>blabalbd</h2>
         <Flex
           alignItems={{ md: "center" }}
           justifyContent={{ md: "space-between" }}
