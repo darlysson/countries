@@ -25,6 +25,7 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <p>Paragraph coming from master</p>
       <Container
         maxWidth="80rem"
         px={{ base: "4", md: "12" }}
