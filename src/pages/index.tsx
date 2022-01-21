@@ -25,7 +25,8 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <p>Paragraph coming from master</p>
+      <h4>New title from funcionalidade nova branch</h4>
+      <h5>New subtitle - commit 2</h5>
       <Container
         maxWidth="80rem"
         px={{ base: "4", md: "12" }}
