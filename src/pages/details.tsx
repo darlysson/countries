@@ -8,7 +8,7 @@ export default function Details() {
   return (
     <Container maxWidth="80rem" mb="4" px={{ base: "6", md: "12" }} py={{ base: "6", md: "10" }}>
       <Button leftIcon={<BiArrowBack />} bg="white" fontSize="14" px="10" boxShadow="md" >
-        Back
+        Backs
       </Button>
 
       <Grid display={{ base: "block", md: "grid" }} templateColumns="repeat(2, 1fr)" mt={20} gap={24} h="200px" alignItems="center">
