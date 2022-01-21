@@ -1,6 +1,6 @@
 import React from 'react'
-import { Flex, Heading, HStack, Text, Box } from "@chakra-ui/react"
-import { BsFillMoonFill } from 'react-icons/bs';
+import { Flex, Heading, HStack, Text, Box, Button } from "@chakra-ui/react"
+import { BsMoon } from 'react-icons/bs';
 
 export default function Header() {
   return (
@@ -8,10 +8,9 @@ export default function Header() {
       <Flex justifyContent="space-between" alignItems="center" px={{ md: "12" }} maxW="80rem" m="auto">
         <Heading size="md">Where in the world?</Heading>
 
-        <HStack space="8">
-          <BsFillMoonFill />
-          <Text>Dark Mode</Text>
-        </HStack>
+        <Button leftIcon={<BsMoon />} variant="ghost">
+          Dark Mode
+        </Button>
       </Flex>
     </Box>
   )

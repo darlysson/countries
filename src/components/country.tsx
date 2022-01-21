@@ -5,7 +5,7 @@ export default function Country() {
   return (
     <VStack boxShadow="base" borderBottomLeftRadius="6" borderBottomRightRadius="6">
       <Box>
-        <Image borderTopLeftRadius="6" borderTopRightRadius="6" src="" alt="USA flag" />
+        <Image borderTopLeftRadius="6" borderTopRightRadius="6" src="https://images.unsplash.com/photo-1540827341250-3dba07798cbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="USA flag" />
       </Box>
       <Box px="4" py="6" w="full" bg="white" borderBottomLeftRadius="6" borderBottomRightRadius="6" style={{ marginTop: 0 }}>
         <Heading mb="5" fontWeight="bold" fontSize="16">United States of America</Heading>

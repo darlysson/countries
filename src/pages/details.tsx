@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { Container, Button, Grid, Wrap, WrapItem, GridItem, Image, Heading, Flex, UnorderedList, ListItem, Text, HStack } from '@chakra-ui/react'
+import { Container, Button, Grid, Wrap, WrapItem, GridItem, Image, Heading, Flex, UnorderedList, ListItem, Text } from '@chakra-ui/react'
 import { BiArrowBack } from "react-icons/bi"
+const img = "https://images.unsplash.com/photo-1540827341250-3dba07798cbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
 
 export default function Details() {
   return (
@@ -12,7 +13,7 @@ export default function Details() {
 
       <Grid display={{ base: "block", md: "grid" }} templateColumns="repeat(2, 1fr)" mt={20} gap={24} h="200px" alignItems="center">
         <GridItem mb={{ base: 8, md: 0 }}>
-          <Image src="https://images.unsplash.com/photo-1540827341250-3dba07798cbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="USA flag" />
+          <Image src={img} alt="USA flag" />
         </GridItem>
         <GridItem>
           <Heading mb="6" fontSize="24">United States of America</Heading>

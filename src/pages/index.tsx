@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Flex, Text, Grid, Button, Spacer, InputGroup, InputLeftElement, Input, Menu, MenuItem, MenuButton, MenuList } from '@chakra-ui/react'
+import { Container, Flex, Text, Grid, Button, InputGroup, InputLeftElement, Input, Menu, MenuItem, MenuButton, MenuList } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import axios from 'axios';
 import { AiOutlineSearch } from "react-icons/ai"
@@ -22,8 +22,6 @@ const Home: NextPage = () => {
 
     fetchData();
   }, [])
-
-  console.log(data);
 
   return (
     <>
@@ -54,6 +52,7 @@ const Home: NextPage = () => {
               transition="all 0.2s"
               borderRadius="6"
               height="12"
+              id="menu-button-2"
               as={Button} rightIcon={<BiChevronDown />}
               _focus={{ boxShadow: "outline" }}
             >
@@ -72,8 +71,8 @@ const Home: NextPage = () => {
         </Flex>
       </Container>
 
-      <Container as="main" px={{ base: "10", md: "12" }} py="10" maxWidth="80rem">
-        <Grid mt={{ md: "10" }} templateColumns="repeat(auto-fill, minmax(15rem, 1fr))" gap={16}>
+      <Container as="main" px={{ base: "14", md: "12" }} pb="10" maxWidth="80rem">
+        <Grid templateColumns="repeat(auto-fill, minmax(15rem, 1fr))" gap={16}>
           <Country />
           <Country />
           <Country />
