@@ -27,8 +27,9 @@ const Home: NextPage = () => {
     <>
       <Container
         maxWidth="80rem"
-        px={{ base: "14", md: "14" }}
-        py={{ base: "14", md: "14" }}
+        textStyle={"Hello world."}
+        px={{ base: "1", md: "1" }}
+        py={{ base: "1", md: "1" }}
       >
         <Flex
           alignItems={{ md: "center" }}
