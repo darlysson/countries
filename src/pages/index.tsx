@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Flex, Text, Grid, Button, InputGroup, InputLeftElement, Input, Menu, MenuItem, MenuButton, MenuList } from '@chakra-ui/react'
-import type { NextPage } from 'next'
+import { Button, Container, Flex, Grid, Input, InputGroup, InputLeftElement, Menu, MenuButton, MenuItem, MenuList, Text } from '@chakra-ui/react';
 import axios from 'axios';
-import { AiOutlineSearch } from "react-icons/ai"
-import { BiChevronDown } from "react-icons/bi"
-import Country from '../components/country'
+import type { NextPage } from 'next';
+import React, { useEffect, useState } from 'react';
+import { AiOutlineSearch } from "react-icons/ai";
+import { BiChevronDown } from "react-icons/bi";
+import Country from '../components/country';
 interface IData {
   data: [
     name: string
@@ -22,6 +22,9 @@ const Home: NextPage = () => {
 
     fetchData();
   }, [])
+  console.log('console log from MAIN BRANCH');
+  console.log('console log from MAIN BRANCH TESTE');
+  console.log('console log from MAIN BRANCH TESTE 2');
 
   return (
     <>
