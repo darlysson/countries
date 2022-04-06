@@ -65,7 +65,7 @@ const Home: NextPage = () => {
               <MenuItem fontSize="14" fontWeight="500">America</MenuItem>
               <MenuItem fontSize="14" fontWeight="500">Asia</MenuItem>
               <MenuItem fontSize="14" fontWeight="500">Europe</MenuItem>
-              <MenuItem fontSize="14" fontWeight="500">Oceania</MenuItem>
+              <MenuItem fontSize="14" fontWeight="500">Oceania</MenuItem><MenuItem fontSize="14" fontWeight="500">Oceania</MenuItem><MenuItem fontSize="14" fontWeight="500">Oceania</MenuItem><MenuItem fontSize="14" fontWeight="500">Oceania</MenuItem>
             </MenuList>
           </Menu>
         </Flex>
@@ -73,6 +73,9 @@ const Home: NextPage = () => {
 
       <Container as="main" px={{ base: "14", md: "12" }} pb="10" maxWidth="80rem">
         <Grid templateColumns="repeat(auto-fill, minmax(15rem, 1fr))" gap={16}>
+          <Country />
+          <Country />
+          <Country />
           <Country />
           <Country />
           <Country />
