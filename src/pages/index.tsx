@@ -25,6 +25,7 @@ const Home: NextPage = () => {
   console.log('console log from MAIN BRANCH');
   console.log('console log from MAIN BRANCH TESTE');
   console.log('console log from MAIN BRANCH TESTE 2');
+  console.log('console log from TESTE 3');
 
   return (
     <>
