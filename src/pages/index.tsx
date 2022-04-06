@@ -18,6 +18,9 @@ const Home: NextPage = () => {
     const fetchData = async () => {
       const result = await axios('https://restcountries.com/v3.1/all');
       setData(result.data);
+      console.log(result.data);
+      console.log('log from useEffect');
+
     }
 
     fetchData();
