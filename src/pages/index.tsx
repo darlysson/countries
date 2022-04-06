@@ -18,13 +18,10 @@ const Home: NextPage = () => {
     const fetchData = async () => {
       const result = await axios('https://restcountries.com/v3.1/all');
       setData(result.data);
-      console.log("This is a message from feat/teste, and I want to merge it to main branch.");
-
     }
 
     fetchData();
   }, [])
-  console.log("this is a console log from main, I want it to remain here!!");
 
   return (
     <>
