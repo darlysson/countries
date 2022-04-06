@@ -26,13 +26,12 @@ const Home: NextPage = () => {
   }, [])
   console.log("this is a console log from main, I want it to remain here!!");
 
-
   return (
     <>
       <Container
         maxWidth="80rem"
-        px={{ base: "4", md: "12" }}
-        py={{ base: "6", md: "10" }}
+        px={{ base: "14", md: "14" }}
+        py={{ base: "14", md: "14" }}
       >
         <Flex
           alignItems={{ md: "center" }}
