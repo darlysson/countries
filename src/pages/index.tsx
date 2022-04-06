@@ -22,6 +22,7 @@ const Home: NextPage = () => {
 
     fetchData();
   }, [])
+  console.log('log from main');
 
   return (
     <>
