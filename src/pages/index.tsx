@@ -15,6 +15,7 @@ console.log("This comes from main and should stay.");
 
 const Home: NextPage = () => {
   const [data, setData] = useState<IData>()
+  console.log("this comes from teste and should stay, without conflicts with main branch");
 
   useEffect(() => {
     const fetchData = async () => {
