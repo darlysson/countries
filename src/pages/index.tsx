@@ -10,6 +10,8 @@ interface IData {
     name: string
   ]
 }
+console.log("This comes from main and should stay.");
+
 
 const Home: NextPage = () => {
   const [data, setData] = useState<IData>()
