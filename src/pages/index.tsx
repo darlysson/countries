@@ -60,7 +60,7 @@ const Home: NextPage = () => {
               _focus={{ boxShadow: "outline" }}
             >
               <Text mr="1" align="left" fontSize="14">
-                Filter by Region
+                Filter by Regions
               </Text>
             </MenuButton>
             <MenuList>
